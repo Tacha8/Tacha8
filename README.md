@@ -12,7 +12,7 @@
 
 <h2> Connect with me:</h2>
 
-
+Linkedin: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
 <!--
 **Tacha8/Tacha8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
