@@ -1,4 +1,4 @@
-<h1>Hi, I'm Tibon Acha, an <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">IT Professional</a>☺</h1>
+<h1>Hi, I'm Tibon Acha, an <a href="https://www.linkedin.com/in/tibon-acha-8372a3227/">IT Professional</a>☺</h1>
 
 <h2> Information Technology Projects:</h2>
 
@@ -12,7 +12,7 @@
 
 <h2> Connect with me:</h2>
 
-Linkedin: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+Linkedin: https://www.linkedin.com/in/tibon-acha-8372a3227/
 <!--
 **Tacha8/Tacha8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
