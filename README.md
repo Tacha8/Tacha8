@@ -8,19 +8,20 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 ## Vulnerability Management Projects
 
-- **[Vulnerability Management Program Implementation](https://github.com/Tacha8/vulnerability-management-program-)**
+- **[Vulnerability Management Program Implementation](https://github.com/Tacha8/vulnerability-management-program-) implemented a vulnerability management program, including scanning, remediation planning/(CADR) process**
+
 
 <h2> Information Technology Projects:</h2>
 
 
 - <b>Microsoft Azure</b>
-  - [Configuring On-premises Active Directory within Azure VMs](https://github.com/Tacha8/configure-ad)
-  - [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/Tacha8/azure-network-protocols)
+  - [Configuring On-premises Active Directory within Azure VMs](https://github.com/Tacha8/configure-ad) (set up and configured an on-premises Active Directory domain using Azure virtual machines for identity management and authentication.)
+  - [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/Tacha8/azure-network-protocols) (configured Azure NSGs, analyzed inbound and outbound traffic, and inspected network protocols to enforce security policies.)
 
 - <b>osTicket (Help Desk Ticketing System)</b>
-  - [osTicket: Prerequisites and Installation](https://github.com/Tacha8/osticket-prereqs)
-  - [osTicket: Post-Installation Configuration](https://github.com/Tacha8/post-install-config)
-  - [osTicket: Ticket Lifecycle Examples](https://github.com/Tacha8/ticket-lifecycle)
+  - [osTicket: Prerequisites and Installation](https://github.com/Tacha8/osticket-prereqs) (installed support ticketing system (osTicket) from scratch by setting up the required environment, database, and web server components.)
+  - [osTicket: Post-Installation Configuration](https://github.com/Tacha8/post-install-config) (configured departments, roles, users, and help topics in osTicket to prepare it for real-world ticket management.)
+  - [osTicket: Ticket Lifecycle Examples](https://github.com/Tacha8/ticket-lifecycle) (created and managed tickets through their full lifecycle to simulate real help desk workflows and response processes.)
 
 <h2> Connect with me:</h2>
 
