@@ -25,7 +25,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 <h2> Connect with me:</h2>
 
-Linkedin: https://www.linkedin.com/in/tibon-acha-8372a3227/
+Linkedin: https://www.linkedin.com/in/tibon-a-8372a3227/
 <!--
 **Tacha8/Tacha8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
