@@ -11,10 +11,11 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 - **[Vulnerability Management Program Implementation](https://github.com/Tacha8/vulnerability-management-program-) (implemented a vulnerability management program, including scanning, remediation planning/(CADR) process)**
 
 
-<h2> Information Technology Projects:</h2>
+<h2> Identity Access Management Labs/IT Projects:</h2>
 
 
 - <b>Microsoft Azure</b>
+  - [Entra Azure AD Tenant Deployment with MFA & Identity Administration](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup) (Configured a secure Azure AD tenant with MFA enforcement and administrative identity setup.)
   - [Configuring On-premises Active Directory within Azure VMs](https://github.com/Tacha8/configure-ad) (set up and configured an on-premises Active Directory domain using Azure virtual machines for identity management and authentication.)
   - [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/Tacha8/azure-network-protocols) (configured Azure NSGs, analyzed inbound and outbound traffic, and inspected network protocols to enforce security policies.)
 
