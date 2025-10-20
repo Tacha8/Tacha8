@@ -4,7 +4,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 ## Threat Hunting Project
 
-- **[Threat-Hunting-Scenario-Tor](https://github.com/Tacha8/threat-hunting-scenario-tor-)**
+- **[Threat-Hunting-Scenario-Tor](https://github.com/Tacha8/threat-hunting-scenario-tor)**
 
 ## Vulnerability Management Projects
 
