@@ -8,7 +8,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 ## Vulnerability Management Projects
 
-- **[Vulnerability Management Program Implementation](https://github.com/Tacha8/vulnerability-management-program-) (implemented a vulnerability management program, including scanning, remediation planning/(CADR) process)**
+- **[Vulnerability Management Program Implementation](https://github.com/Tacha8/vulnerability-management-program-) (implemented a vulnerability management program, including scanning, remediation planning/(CAB) process)**
 
 
 <h2> Identity & Access Management (IAM) and IT Security Projects:</h2>
