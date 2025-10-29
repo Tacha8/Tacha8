@@ -15,6 +15,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 
 - <b>Microsoft Azure</b>
+  - [Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell) (Automated user provisioning, group creation, and role assignments in Microsoft Entra ID using PowerShell.)
   - [Entra Azure AD Tenant Deployment with MFA & Identity Administration](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup) (Configured a secure Azure AD tenant with MFA enforcement and administrative identity setup.)
   - [Configuring On-premises Active Directory within Azure VMs](https://github.com/Tacha8/configure-ad) (set up and configured an on-premises Active Directory domain using Azure virtual machines for identity management and authentication.)
   - [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/Tacha8/azure-network-protocols) (configured Azure NSGs, analyzed inbound and outbound traffic, and inspected network protocols to enforce security policies.)
