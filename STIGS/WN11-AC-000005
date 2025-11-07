@@ -1,0 +1,65 @@
+<#
+.SYNOPSIS
+
+Windows 11 account lockout duration must be configured to 15 minutes or greater.
+
+.NOTES
+    Author          : Tibon Acha
+    LinkedIn        : www.linkedin.com/in/tibon-a-8372a3227
+    GitHub          : https://github.com/Tacha8
+    Date Created    : 2025-07-11
+    Last Modified   : 2024-07-11
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-AC-000005
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\Remediate_WN11-AU-000050.ps1 
+#>
+
+# YOUR CODE GOES HERE
+
+# --- Account Lockout Policy Configuration ---
+# Duration: 15 minutes
+# Threshold: 10 invalid attempts
+# Reset Counter: 10 minutes
+# Allow Admin Account Lockout: Enabled
+
+# Set lockout duration
+net accounts /lockoutduration:15
+
+# Set threshold for invalid logons
+net accounts /lockoutthreshold:10
+
+# Set reset counter time
+net accounts /lockoutwindow:10
+
+# Enable Administrator account lockout
+# This setting requires using secedit to modify the security policy directly
+$TempInf = "$env:TEMP\AccountLockout.inf"
+$TempSdb = "$env:TEMP\AccountLockout.sdb"
+
+# Create a temporary security template file
+@"
+[Unicode]
+Unicode=yes
+[System Access]
+EnableAdminAccountLockout = 1
+"@ | Out-File -Encoding ASCII $TempInf
+
+# Apply the security template
+secedit /configure /db $TempSdb /cfg $TempInf /areas SECURITYPOLICY
+
+# Clean up
+Remove-Item $TempInf, $TempSdb -Force -ErrorAction SilentlyContinue
+
+Write-Host "Account lockout policy successfully configured
