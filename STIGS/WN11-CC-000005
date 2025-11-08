@@ -1,0 +1,45 @@
+<#
+.SYNOPSIS
+
+Camera access from the lock screen must be disabled.
+
+.NOTES
+    Author          : Tibon Acha
+    LinkedIn        : www.linkedin.com/in/tibon-a-8372a3227
+    GitHub          : https://github.com/Tacha8
+    Date Created    : 2025-08-11
+    Last Modified   : 2024-08-11
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000005
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\Remediate_WN11-PERSONALIZATION-NoLockScreenCamera 
+#>
+
+# YOUR CODE GOES HERE
+
+# Run PowerShell as Administrator
+
+$regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization"
+$name    = "NoLockScreenCamera"
+$value   = 1
+
+# Make sure the path exists
+if (-not (Test-Path $regPath)) {
+    New-Item -Path $regPath -Force | Out-Null
+}
+
+# Create or update the DWORD
+New-ItemProperty -Path $regPath -Name $name -Value $value -PropertyType DWord -Force | Out-Null
+
+Write-Host "Lock screen camera disabled (NoLockScreenCamera=1)."
