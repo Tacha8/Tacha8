@@ -1,0 +1,72 @@
+<#
+.SYNOPSIS
+
+Camera access from the lock screen must be disabled.
+
+.NOTES
+    Author          : Tibon Acha
+    LinkedIn        : www.linkedin.com/in/tibon-a-8372a3227
+    GitHub          : https://github.com/Tacha8
+    Date Created    : 2025-12-11
+    Last Modified   : 2025-12-11
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-00-000125
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\Remediate_WN11-WINDOWSCOPILOT-TurnOffWindowsCopilot.ps1
+ 
+#>
+
+# YOUR CODE GOES HERE
+
+<#
+.SYNOPSIS
+  Disables Windows Copilot (STIG WN11-00-000125)
+
+.DESCRIPTION
+  Creates the registry key/value required by Group Policy:
+  User Configuration → Administrative Templates → Windows Components → Windows Copilot → Turn off Windows Copilot = Enabled (1)
+
+.USAGE
+  PS C:\> .\Remediate_WN11-WINDOWSCOPILOT-TurnOff.ps1
+#>
+
+Write-Host "Applying STIG WN11-00-000125 – Turn off Windows Copilot..." -ForegroundColor Cyan
+
+$valName  = 'TurnOffWindowsCopilot'
+$valValue = 1
+
+# --- Machine scope (HKLM)
+$pathLM = 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot'
+if (-not (Test-Path $pathLM)) { New-Item -Path $pathLM -Force | Out-Null }
+New-ItemProperty -Path $pathLM -Name $valName -PropertyType DWord -Value $valValue -Force | Out-Null
+
+# --- Current user (HKCU)
+$pathCU = 'HKCU:\Software\Policies\Microsoft\Windows\WindowsCopilot'
+if (-not (Test-Path $pathCU)) { New-Item -Path $pathCU -Force | Out-Null }
+New-ItemProperty -Path $pathCU -Name $valName -PropertyType DWord -Value $valValue -Force | Out-Null
+
+# --- All loaded user hives (HKEY_USERS)
+Get-ChildItem Registry::HKEY_USERS |
+    Where-Object { $_.Name -match '^HKEY_USERS\\S-1-5-21-\d+-\d+-\d+-\d+$' } |
+    ForEach-Object {
+        $sid = $_.PSChildName
+        $userKey = "Registry::HKEY_USERS\$sid\Software\Policies\Microsoft\Windows\WindowsCopilot"
+        if (-not (Test-Path $userKey)) {
+            New-Item -Path $userKey -Force | Out-Null
+        }
+        New-ItemProperty -Path $userKey -Name $valName -PropertyType DWord -Value $valValue -Force | Out-Null
+    }
+
+Write-Host "Set 'Turn off Windows Copilot' = Enabled (1) for HKLM, HKCU, and all loaded user hives." -ForegroundColor Green
+Write-Host "Run gpupdate /target:user /force && gpupdate /target:computer /force or sign out/in to apply settings."
