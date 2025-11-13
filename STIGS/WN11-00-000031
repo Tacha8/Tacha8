@@ -1,0 +1,71 @@
+<#
+.SYNOPSIS
+
+Configure BitLocker pre-boot authentication STIG settings.
+
+.NOTES
+    Author          : Tibon Acha
+    LinkedIn        : www.linkedin.com/in/tibon-a-8372a3227
+    GitHub          : https://github.com/Tacha8
+    Date Created    : 2025-13-11
+    Last Modified   : 2025-13-11
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-00-000031
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\Remediate_WN11-BITLOCKER-UseTPMPIN-And-AdvancedStartup.ps1
+ 
+#>
+
+param(
+    [switch]$NetworkUnlock  # use -NetworkUnlock if you actually use Network Unlock
+)
+
+# Must be run as Administrator
+$regPath = 'HKLM:\SOFTWARE\Policies\Microsoft\FVE'
+
+# Create path if missing
+if (-not (Test-Path $regPath)) {
+    New-Item -Path $regPath -Force | Out-Null
+}
+
+# UseAdvancedStartup = 1
+New-ItemProperty -Path $regPath -Name 'UseAdvancedStartup' -PropertyType DWord -Value 1 -Force | Out-Null
+
+# Decide value based on whether Network Unlock is used
+if ($NetworkUnlock) {
+    $val = 2   # When BitLocker network unlock is used
+} else {
+    $val = 1   # Normal TPM+PIN, no Network Unlock
+}
+
+# UseTPMPIN = 1 or 2
+New-ItemProperty -Path $regPath -Name 'UseTPMPIN' -PropertyType DWord -Value $val -Force | Out-Null
+
+# UseTPMKeyPIN = 1 or 2
+New-ItemProperty -Path $regPath -Name 'UseTPMKeyPIN' -PropertyType DWord -Value $val -Force | Out-Null
+
+Write-Host "STIG values set:"
+Get-ItemProperty -Path $regPath | Select-Object UseAdvancedStartup, UseTPMPIN, UseTPMKeyPIN
+
+# Create the SYSTEM policy path if it doesn't exist
+$path = "HKLM:\SYSTEM\CurrentControlSet\Policies\Microsoft\FVE"
+if (-not (Test-Path $path)) {
+    New-Item -Path $path -Force | Out-Null
+}
+
+# Set UseAdvancedStartup = 1
+New-ItemProperty -Path $path -Name "UseAdvancedStartup" -PropertyType DWord -Value 1 -Force | Out-Null
+
+Write-Host "Done. SYSTEM policy value set:"
+reg query HKLM\SYSTEM\CurrentControlSet\Policies\Microsoft\FVE
