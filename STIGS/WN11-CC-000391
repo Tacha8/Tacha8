@@ -1,0 +1,45 @@
+<#
+.SYNOPSIS
+
+Disables Internet Explorer 11 as a standalone browser on Windows 11.
+
+.NOTES
+    Author          : Tibon Acha
+    LinkedIn        : www.linkedin.com/in/tibon-a-8372a3227
+    GitHub          : https://github.com/Tacha8
+    Date Created    : 2025-13-11
+    Last Modified   : 2025-13-11
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000391
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\Remediate_WN11-IE11-DisableIE11Standalone.ps1
+ 
+#>
+
+
+$regPath = 'HKLM:\SOFTWARE\Policies\Microsoft\Internet Explorer\Main'
+
+# Create the policy key if it doesn't exist
+if (-not (Test-Path $regPath)) {
+    New-Item -Path $regPath -Force | Out-Null
+}
+
+# Disable IE11 as standalone browser (if not already set)
+New-ItemProperty -Path $regPath -Name 'DisableIE11Standalone' -PropertyType DWord -Value 1 -Force | Out-Null
+
+# STIG/Tenable check: NotifyDisableIEOptions must be 0
+New-ItemProperty -Path $regPath -Name 'NotifyDisableIEOptions' -PropertyType DWord -Value 0 -Force | Out-Null
+
+Write-Host "IE11 STIG remediation complete. Current values:"
+reg query "HKLM\SOFTWARE\Policies\Microsoft\Internet Explorer\Main"
