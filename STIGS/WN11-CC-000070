@@ -1,0 +1,84 @@
+<#
+.SYNOPSIS
+
+Virtualization-based Security must be enabled on Windows 11 with the platform security level configured to Secure Boot or Secure Boot with DMA Protection.
+
+.NOTES
+    Author          : Tibon Acha
+    LinkedIn        : www.linkedin.com/in/tibon-a-8372a3227
+    GitHub          : https://github.com/Tacha8
+    Date Created    : 2025-15-11
+    Last Modified   : 2025-15-11
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000070
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\Remediate_WN11-VBS-EnableVBSStandalone.ps1
+ 
+<# 
+Enable Virtualization-Based Security (VBS) with:
+ - Secure Boot + DMA protection
+ - Credential Guard
+This should satisfy the STIG check for:
+ - RequiredSecurityProperties (includes 2 and 3)
+ - VirtualizationBasedSecurityStatus = 2 (Running)
+#>
+
+# --- 1. Enable VBS and set platform security level ---
+
+$dgPath   = "HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard"
+$hvciPath = "HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity"
+$lsaPath  = "HKLM:\SYSTEM\CurrentControlSet\Control\Lsa"
+
+# Make sure the keys exist
+New-Item -Path $dgPath   -Force | Out-Null
+New-Item -Path $hvciPath -Force | Out-Null
+
+# Turn on Virtualization-Based Security
+New-ItemProperty -Path $dgPath -Name "EnableVirtualizationBasedSecurity" `
+    -PropertyType DWord -Value 1 -Force | Out-Null
+
+# 1 = Secure Boot only
+# 3 = Secure Boot + DMA protection  (what the STIG wants if hardware supports it)
+New-ItemProperty -Path $dgPath -Name "RequirePlatformSecurityFeatures" `
+    -PropertyType DWord -Value 3 -Force | Out-Null
+
+# (Optional) Lock policy in UEFI – comment out if you don’t want this
+New-ItemProperty -Path $dgPath -Name "Locked" `
+    -PropertyType DWord -Value 1 -Force | Out-Null
+
+
+# --- 2. Turn on Hypervisor-Enforced Code Integrity (Memory Integrity / HVCI) ---
+
+New-ItemProperty -Path $hvciPath -Name "Enabled" `
+    -PropertyType DWord -Value 1 -Force | Out-Null
+
+# 0 = not locked, 1 = UEFI-locked
+New-ItemProperty -Path $hvciPath -Name "Locked" `
+    -PropertyType DWord -Value 0 -Force | Out-Null
+
+
+# --- 3. Enable Credential Guard ---
+
+# 1 = enable Credential Guard with UEFI lock
+# 2 = enable without UEFI lock
+New-ItemProperty -Path $lsaPath -Name "LsaCfgFlags" `
+    -PropertyType DWord -Value 1 -Force | Out-Null
+
+
+# --- 4. Optional: show current DeviceGuard / VBS status ---
+
+Write-Host "`nCurrent Win32_DeviceGuard status:`n"
+Get-CimInstance -ClassName Win32_DeviceGuard -Namespace root\Microsoft\Windows\DeviceGuard |
+    Select-Object SecurityServicesConfigured, SecurityServicesRunning, `
+                  RequiredSecurityProperties, VirtualizationBasedSecurityStatus
