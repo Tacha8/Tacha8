@@ -1,0 +1,69 @@
+<#
+.SYNOPSIS
+
+Windows 11 must be configured to disable Windows Game Recording and Broadcasting.
+
+.NOTES
+    Author          : Tibon Acha
+    LinkedIn        : www.linkedin.com/in/tibon-a-8372a3227
+    GitHub          : https://github.com/Tacha8
+    Date Created    : 2025-17-11
+    Last Modified   : 2025-17-11
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000252
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\Remediate_WN11-DisableGameDVR.ps1
+ 
+<# 
+Enable Virtualization-Based Security (VBS) with:
+ - Secure Boot + DMA protection
+ - Credential Guard
+This should satisfy the STIG check for:
+ - RequiredSecurityProperties (includes 2 and 3)
+ - VirtualizationBasedSecurityStatus = 2 (Running)
+#>
+
+# ============================================================
+# Disable GameDVR (Windows Game Recording and Broadcasting)
+# Applies to HKLM ONLY (HKEY_LOCAL_MACHINE)
+# STIG ID: WN11-CC-000252
+# ============================================================
+
+# --- Registry Paths ---
+$policyPath = 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR'
+$systemPath = 'HKLM:\SYSTEM\CurrentControlSet\Services\GameDVR'
+
+# --- Setting Name / Value ---
+$regName = 'AllowGameDVR'
+$disableValue = 0
+
+# --- Ensure the registry keys exist ---
+if (-not (Test-Path $policyPath)) {
+    New-Item -Path $policyPath -Force | Out-Null
+}
+
+if (-not (Test-Path $systemPath)) {
+    New-Item -Path $systemPath -Force | Out-Null
+}
+
+# --- Apply the values ---
+New-ItemProperty -Path $policyPath -Name $regName -Value $disableValue -PropertyType DWord -Force | Out-Null
+New-ItemProperty -Path $systemPath -Name $regName -Value $disableValue -PropertyType DWord -Force | Out-Null
+
+# --- Output verification ---
+Write-Host "HKLM Policies Value:" -ForegroundColor Cyan
+(Get-ItemProperty -Path $policyPath -Name $regName).$regName
+
+Write-Host "`nHKLM SYSTEM Value:" -ForegroundColor Cyan
+(Get-ItemProperty -Path $systemPath -Name $regName).$regName
