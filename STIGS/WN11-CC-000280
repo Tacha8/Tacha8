@@ -1,0 +1,50 @@
+<#
+.SYNOPSIS
+
+Remote Desktop Services must always prompt for password.
+
+.NOTES
+    Author          : Tibon Acha
+    LinkedIn        : www.linkedin.com/in/tibon-a-8372a3227
+    GitHub          : https://github.com/Tacha8
+    Date Created    : 2025-17-11
+    Last Modified   : 2025-17-11
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000280
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\Remediate_WN11-RDS-PromptForPassword.ps1
+ 
+#>
+
+# Registry info from STIG:
+# Hive : HKEY_LOCAL_MACHINE
+# Path : SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services
+# Name : fPromptForPassword
+# Type : REG_DWORD
+# Value: 1
+
+$regPath  = 'HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services'
+$regName  = 'fPromptForPassword'
+$regValue = 1
+
+# Make sure the key exists
+if (-not (Test-Path $regPath)) {
+    New-Item -Path $regPath -Force | Out-Null
+}
+
+# Set the value to 1 (always prompt for password)
+New-ItemProperty -Path $regPath -Name $regName -Value $regValue -PropertyType DWord -Force | Out-Null
+
+# Output just the policy value (for scanners expecting a numeric result)
+(Get-ItemProperty -Path $regPath -Name $regName).$regName
