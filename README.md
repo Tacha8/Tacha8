@@ -2,6 +2,10 @@
 
 I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
 
+## DISA STIG Implementation & Remediation 
+
+- **[DISA-STIGS](https://github.com/Tacha8/Tacha8/tree/main/STIGS) (applying security rules created by the Defense Information Systems Agency to harden a system (Windows, Linux, network device, database)**
+
 ## Threat Hunting Project
 
 - **[Threat-Hunting-Scenario-Tor](https://github.com/Tacha8/threat-hunting-scenario-tor)  (I hunted malicious Tor traffic using KQL, Sentinel, logs, incident response steps, etc.)**
