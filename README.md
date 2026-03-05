@@ -2,17 +2,21 @@
 
 I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
 
+## API Behavior Monitoring Python Script
+
+- **[View Project](https://github.com/Tacha8/API-Behavior-Monitoring-Script/tree/lab-tiach) (Python script that analyzes API response time, status codes, and failure patterns to detect abnormal behavior.)**
+
 ## DISA STIG Implementation & Remediation 
 
-- **[DISA-STIGS](https://github.com/Tacha8/Tacha8/tree/main/STIGS) (applying security rules created by the Defense Information Systems Agency to harden a system (Windows, Linux, network device, database)**
+- **[View STIGS](https://github.com/Tacha8/Tacha8/tree/main/STIGS) (applying security rules created by the Defense Information Systems Agency to harden a system (Windows, Linux, network device, database)**
 
 ## Threat Hunting Project
 
-- **[Threat-Hunting-Scenario-Tor](https://github.com/Tacha8/threat-hunting-scenario-tor)  (I hunted malicious Tor traffic using KQL, Sentinel, logs, incident response steps, etc.)**
+- **[View Project](https://github.com/Tacha8/threat-hunting-scenario-tor)  (I hunted malicious Tor traffic using KQL, Sentinel, logs, incident response steps, etc.)**
 
 ## Vulnerability Management Projects
 
-- **[Vulnerability Management Program Implementation](https://github.com/Tacha8/vulnerability-management-program-) (implemented a vulnerability management program, including scanning, remediation planning/(CAB) process)**
+- **[View Project](https://github.com/Tacha8/vulnerability-management-program-) (implemented a vulnerability management program, including scanning, remediation planning/(CAB) process)**
 
 
 <h2> Identity & Access Management (IAM) and IT Security Labs:</h2>
