@@ -21,6 +21,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 <h2> IT Labs:</h2>
 
+- [Active Directory Enterprise Administration](https://github.com/Tacha8/Active-Directory-Enterprise-Administration) (Built and administered an enterprise Active Directory environment with DNS, RBAC, Group Policy, SMB shares, NTFS permissions, Kerberos authentication, and troubleshooting of DNS and GPO issues.)
 
 - <b>Microsoft Azure</b>
   - [Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell) (Automated user provisioning, group creation, and role assignments in Microsoft Entra ID using PowerShell.)
