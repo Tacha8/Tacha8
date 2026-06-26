@@ -2,6 +2,10 @@
 
 I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
 
+## Active Directory Kerberos Authentication & SQL Service Account Security Project
+
+- **[View Project](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1) (Built an enterprise Active Directory lab to deploy SQL Server under a dedicated service account, configure SPNs, validate Kerberos authentication, troubleshoot SPN-related issues, and analyze service ticket generation.)**
+
 ## API Behavior Monitoring Python Script
 
 - **[View Project](https://github.com/Tacha8/API-Behavior-Monitoring-Script/tree/lab-tiach) (Python script that analyzes API response time, status codes, and failure patterns to detect abnormal behavior.)**
