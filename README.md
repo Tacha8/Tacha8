@@ -22,6 +22,9 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 - **[View Project](https://github.com/Tacha8/vulnerability-management-program-) (implemented a vulnerability management program, including scanning, remediation planning/(CAB) process)**
 
+## Password Spraying Detection in Active Directory
+
+- **[View Project](https://github.com/Tacha8/Password-Spraying-Detection-in-Active-Directory/tree/Tacha8-patch-1) (project demonstrates how Windows Active Directory enforces account lockout policies during a password spraying attack.)**
 
 <h2> IT Labs:</h2>
 
