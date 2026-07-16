@@ -13,7 +13,7 @@ Focused in tackling complex challenges through hands-on projects. These projects
 - **[View](https://github.com/Tacha8/vulnerability-management-program-) (implemented a vulnerability management program, including scanning, remediation planning/(CAB) process)**
 - **[View STIGS](https://github.com/Tacha8/Tacha8/tree/main/STIGS) (applying security rules created by the Defense Information Systems Agency to harden a system (Windows, Linux, network device, database)**
 
-## Identity & Active Directory Security 
+## Identity & Active Directory Provisioning/Security 
 
 - **[View STIGS](https://github.com/Tacha8/Tacha8/tree/main/STIGS) (applying security rules created by the Defense Information Systems Agency to harden a system (Windows, Linux, network device, database)**
 - [Active Directory Enterprise Administration](https://github.com/Tacha8/Active-Directory-Enterprise-Administration) (Built and administered an enterprise Active Directory environment with DNS, RBAC, Group Policy, SMB shares, NTFS permissions, Kerberos authentication, and troubleshooting of DNS and GPO issues.)
