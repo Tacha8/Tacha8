@@ -16,19 +16,19 @@ Focused in tackling complex challenges through hands-on projects. These projects
 
 ## Identity & Active Directory Provisioning/Security 
 
-- [Active Directory Enterprise Administration](https://github.com/Tacha8/Active-Directory-Enterprise-Administration) (Built and administered an enterprise Active Directory environment with DNS, RBAC, Group Policy, SMB shares, NTFS permissions, Kerberos authentication, and troubleshooting of DNS and GPO issues.)
-- [Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell) (Automated user provisioning, group creation, and role assignments in Microsoft Entra ID using PowerShell.)
-- **[View Project](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1) (Built an enterprise Active Directory lab to deploy SQL Server under a dedicated service account, configure SPNs, validate Kerberos authentication, troubleshoot SPN-related issues, and analyze service ticket generation.)**
-- [Entra Azure AD Tenant Deployment with MFA & Identity Administration](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup) (Configured a secure Azure AD tenant with MFA enforcement and administrative identity setup.)
-- [Configuring On-premises Active Directory within Azure VMs](https://github.com/Tacha8/configure-ad) (set up and configured an on-premises Active Directory domain using Azure virtual machines for identity management and authentication.)
-- [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/Tacha8/azure-network-protocols) (configured Azure NSGs, analyzed inbound and outbound traffic, and inspected network protocols to enforce security policies.)
+- **[View](https://github.com/Tacha8/Active-Directory-Enterprise-Administration) (Built and administered an enterprise Active Directory environment with DNS, RBAC, Group Policy, SMB shares, NTFS permissions, Kerberos authentication, and troubleshooting of DNS and GPO issues.)**
+- **[View](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell) (Automated user provisioning, group creation, and role assignments in Microsoft Entra ID using PowerShell.)**
+- **[View](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1) (Built an enterprise Active Directory lab to deploy SQL Server under a dedicated service account, configure SPNs, validate Kerberos authentication, troubleshoot SPN-related issues, and analyze service ticket generation.)**
+- **[View](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup) (Configured a secure Azure AD tenant with MFA enforcement and administrative identity setup.)**
+- **[View](https://github.com/Tacha8/configure-ad) (set up and configured an on-premises Active Directory domain using Azure virtual machines for identity management and authentication.)**
+- **[View](https://github.com/Tacha8/azure-network-protocols) (configured Azure NSGs, analyzed inbound and outbound traffic, and inspected network protocols to enforce security policies.)**
 
 <h2> IT Support Ticketing:</h2>
 
   - <b>osTicket (Help Desk Ticketing System)</b>
-  - [osTicket: Prerequisites and Installation](https://github.com/Tacha8/osticket-prereqs) (installed support ticketing system (osTicket) from scratch by setting up the required environment, database, and web server components.)
-  - [osTicket: Post-Installation Configuration](https://github.com/Tacha8/post-install-config) (configured departments, roles, users, and help topics in osTicket to prepare it for real-world ticket management.)
-  - [osTicket: Ticket Lifecycle Examples](https://github.com/Tacha8/ticket-lifecycle) (created and managed tickets through their full lifecycle to simulate real help desk workflows and response processes.)
+  - [View](https://github.com/Tacha8/osticket-prereqs) (installed support ticketing system (osTicket) from scratch by setting up the required environment, database, and web server components.)
+  - [View](https://github.com/Tacha8/post-install-config) (configured departments, roles, users, and help topics in osTicket to prepare it for real-world ticket management.)
+  - [View](https://github.com/Tacha8/ticket-lifecycle) (created and managed tickets through their full lifecycle to simulate real help desk workflows and response processes.)
 
 <h2> Connect with me:</h2>
 
