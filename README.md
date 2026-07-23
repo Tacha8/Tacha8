@@ -6,6 +6,7 @@ Focused in tackling complex challenges through hands-on projects. These projects
 
 - **[View](https://github.com/Tacha8/threat-hunting-scenario-tor)  ( hunted malicious Tor traffic using KQL, Sentinel, logs, incident response steps, etc.)**
 - **[View](https://github.com/Tacha8/Microsoft-365-Business-Email-Compromise-MFA-Fatigue-) (Investigated a Microsoft 365 Business Email Compromise using Microsoft Sentinel, KQL, and Microsoft 365 telemetry.)**
+- **[View](https://github.com/Tacha8/Enterprise-Endpoint-Compromise-Investigation-and-Attack-Reconstruction) (Conducted an enterprise endpoint compromise investigation using Microsoft Defender XDR to identify malicious activity, validate persistence, and analyze attacker behavior.)**
 - **[View](https://github.com/Tacha8/API-Behavior-Monitoring-Script/tree/lab-tiach) (Python script that analyzes API response time, status codes, and failure patterns to detect abnormal behavior.)**
 - **[View](https://github.com/Tacha8/Password-Spraying-Detection-in-Active-Directory/tree/Tacha8-patch-1) (project demonstrates how Windows Active Directory enforces account lockout policies during a password spraying attack.)**
 
