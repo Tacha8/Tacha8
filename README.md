@@ -17,7 +17,7 @@ Focused in tackling complex challenges through hands-on projects. These projects
 
 ## Identity & Active Directory Provisioning/Security 
 
-- **[View](https://github.com/Tacha8/Active-Directory-Enterprise-Administration) (Built and administered an enterprise Active Directory environment with DNS, RBAC, Group Policy, SMB shares, NTFS permissions, Kerberos authentication, and troubleshooting of DNS and GPO issues.)**
+- **[View](https://github.com/Tacha8/Active-Directory-Enterprise-Administration) (Built and administered an enterprise-style Active Directory environment with DNS, RBAC, Group Policy, SMB shares, NTFS permissions, Kerberos authentication, and troubleshooting of DNS and GPO issues.)**
 - **[View](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell) (Automated user provisioning, group creation, and role assignments in Microsoft Entra ID using PowerShell.)**
 - **[View](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1) (Built an enterprise Active Directory lab to deploy SQL Server under a dedicated service account, configure SPNs, validate Kerberos authentication, troubleshoot SPN-related issues, and analyze service ticket generation.)**
 - **[View](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup) (Configured a secure Azure AD tenant with MFA enforcement and administrative identity setup.)**
