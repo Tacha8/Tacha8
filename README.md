@@ -2,6 +2,17 @@
 
 Focused in tackling complex challenges through hands-on projects. These projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
 
+
+## Identity & Active Directory Provisioning/Security 
+
+- **[View](https://github.com/Tacha8/Active-Directory-Enterprise-Administration) (Built and administered an enterprise-style Active Directory environment with DNS, RBAC, Group Policy, SMB shares, NTFS permissions, Kerberos authentication, and troubleshooting of DNS and GPO issues.)**
+- **[View](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell) (Automated user provisioning, group creation, and role assignments in Microsoft Entra ID using PowerShell.)**
+- **[View](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1) (Built an enterprise Active Directory lab to deploy SQL Server under a dedicated service account, configure SPNs, validate Kerberos authentication, troubleshoot SPN-related issues, and analyze service ticket generation.)**
+- **[View](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup) (Configured a secure Azure AD tenant with MFA enforcement and administrative identity setup.)**
+- **[View](https://github.com/Tacha8/configure-ad) (set up and configured an on-premises Active Directory domain using Azure virtual machines for identity management and authentication.)**
+- **[View](https://github.com/Tacha8/azure-network-protocols) (configured Azure NSGs, analyzed inbound and outbound traffic, and inspected network protocols to enforce security policies.)**
+
+
 ## Threat Detection & Incident Response
 
 - **[View](https://github.com/Tacha8/threat-hunting-scenario-tor)  ( hunted malicious Tor traffic using KQL, Sentinel, logs, incident response steps, etc.)**
@@ -15,14 +26,6 @@ Focused in tackling complex challenges through hands-on projects. These projects
 - **[View](https://github.com/Tacha8/vulnerability-management-program-) (implemented a vulnerability management program, including scanning, remediation planning/(CAB) process)**
 - **[View STIGS](https://github.com/Tacha8/Tacha8/tree/main/STIGS) (applying security rules created by the Defense Information Systems Agency to harden a system (Windows, Linux, network device, database)**
 
-## Identity & Active Directory Provisioning/Security 
-
-- **[View](https://github.com/Tacha8/Active-Directory-Enterprise-Administration) (Built and administered an enterprise-style Active Directory environment with DNS, RBAC, Group Policy, SMB shares, NTFS permissions, Kerberos authentication, and troubleshooting of DNS and GPO issues.)**
-- **[View](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell) (Automated user provisioning, group creation, and role assignments in Microsoft Entra ID using PowerShell.)**
-- **[View](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1) (Built an enterprise Active Directory lab to deploy SQL Server under a dedicated service account, configure SPNs, validate Kerberos authentication, troubleshoot SPN-related issues, and analyze service ticket generation.)**
-- **[View](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup) (Configured a secure Azure AD tenant with MFA enforcement and administrative identity setup.)**
-- **[View](https://github.com/Tacha8/configure-ad) (set up and configured an on-premises Active Directory domain using Azure virtual machines for identity management and authentication.)**
-- **[View](https://github.com/Tacha8/azure-network-protocols) (configured Azure NSGs, analyzed inbound and outbound traffic, and inspected network protocols to enforce security policies.)**
 
 <h2> IT Support Ticketing:</h2>
 
