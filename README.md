@@ -1,6 +1,6 @@
 
 
-Focused in tackling complex challenges through hands-on projects. These projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
+Focused in tackling complex challenges and diving deep into the ever-evolving landscape of IT/cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing operations and processes!
 
 
 ## Identity & Active Directory Provisioning/Security 
