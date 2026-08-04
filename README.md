@@ -4,7 +4,7 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 
 
 ## Identity & Access Management 
-> Designed enterprise identity infrastructure for authentication, authorization, user provisioning, and hybrid cloud identity.
+> enterprise lab simulating identity infrastructure for authentication, authorization, hybrid identity, and lifecycle management.
 
 - **[Enterprise Active Directory Infrastructure](https://github.com/Tacha8/Active-Directory-Enterprise-Administration)**
 - **[Entra ID Automation with PowerShell](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell)**
