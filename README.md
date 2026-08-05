@@ -6,6 +6,7 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 ## Identity & Access Management 
 > enterprise lab simulating identity infrastructure for authentication, authorization, hybrid identity, and lifecycle management.
 
+- **[Enterprise Identity Platform (Complete IAM Environment)](https://github.com/Tacha8/Contoso-Enterprise-Identity-Platform)**
 - **[Enterprise Active Directory Infrastructure](https://github.com/Tacha8/Active-Directory-Enterprise-Administration)**
 - **[Entra ID Automation with PowerShell](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell)**
 - **[Kerberos & SQL Authentication](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1)**
