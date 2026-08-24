@@ -1,7 +1,7 @@
 <#
 .SYNOPSIS
 
-Camera access from the lock screen must be disabled.
+ Turning off this capability will prevent potentially sensitive information from being sent outside the enterprise and uncontrolled updates to the system.
 
 .NOTES
     Author          : Tibon Acha
