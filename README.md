@@ -8,8 +8,8 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 
 - **[Enterprise Identity Platform (Complete IAM Environment)](https://github.com/Tacha8/Contoso-Enterprise-Identity-Platform)**
 - **[Enterprise Active Directory Infrastructure](https://github.com/Tacha8/Active-Directory-Enterprise-Administration)**
-- **[Entra ID Automation with PowerShell](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell)**
-- **[Kerberos & SQL Authentication](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1)**
+- **[Identity Lifecycle Automation with PowerShell](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell)**
+- **[Service Account Security & Kerberos Authentication](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1)**
 - **[Azure Identity Security](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup)**
 - **[Active Directory domain using Azure virtual machines](https://github.com/Tacha8/configure-ad)**
 - **[NSG Configuration](https://github.com/Tacha8/azure-network-protocols)**
@@ -22,7 +22,7 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 - **[Business Email Compromise Investigation](https://github.com/Tacha8/Microsoft-365-Business-Email-Compromise-MFA-Fatigue-)**
 - **[Defender XDR Investigation](https://github.com/Tacha8/Enterprise-Endpoint-Compromise-Investigation-and-Attack-Reconstruction)**
 - **[API Threat Analytics](https://github.com/Tacha8/API-Behavior-Monitoring-Script/tree/lab-tiach)**
-- **[Password Spray Detection](https://github.com/Tacha8/Password-Spraying-Detection-in-Active-Directory/tree/Tacha8-patch-1)**
+- **[Identity Threat Detection — Password Spray Investigation](https://github.com/Tacha8/Password-Spraying-Detection-in-Active-Directory/tree/Tacha8-patch-1)**
 
 ## Security Hardening
 > Reduced organizational risk through vulnerability management, compliance, and system hardening.
