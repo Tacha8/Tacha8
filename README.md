@@ -33,9 +33,9 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 - **[Azure Network Security & Traffic Analysis](https://github.com/Tacha8/azure-network-protocols)**
 
 
-<h2> IT Operations:</h2>
+<h2> IT Help Desk Ticket System Deployment:</h2>
 
-> <b> Implemented enterprise infrastructure supporting ticketing, user support, and operational workflows. </b>
+> 
   - [osTicket Deployment](https://github.com/Tacha8/osticket-prereqs)
   - [Help Desk Workflow](https://github.com/Tacha8/post-install-config)
   - [Ticket Lifecycle Management](https://github.com/Tacha8/ticket-lifecycle)
