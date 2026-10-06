@@ -10,7 +10,7 @@
 - **[Identity Automation with PowerShell & Microsoft Graph](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell)**
 - **[Kerberos Authentication & Active Directory Security](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1)**
 - **[Entra ID Tenant Deployment & CLI Management](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup)**
-- **[Active Directory Deployment & PowerShell User Provisioning](https://github.com/Tacha8/configure-ad)**
+- **[AD Domain controller setup & PowerShell User Account Provisioning/Deployment](https://github.com/Tacha8/configure-ad)**
 
 
 
