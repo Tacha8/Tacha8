@@ -7,6 +7,7 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 > Enterprise identity security projects focused on authentication, authorization, identity lifecycle, and access control.
 
 - **[Azure Governance Incident investigation](https://github.com/Tacha8/Azure-Governance-Incident-investigation)**
+- **[Stolen-Identity-Entra-ID-Incident-Investigation](https://github.com/Tacha8/-Stolen-Identity-Entra-ID-Incident-Investigation)**
 - **[Enterprise Identity Platform (Complete IAM Environment)](https://github.com/Tacha8/Contoso-Enterprise-Identity-Platform)**
 - **[Enterprise Active Directory Infrastructure](https://github.com/Tacha8/Active-Directory-Enterprise-Administration)**
 - **[Identity Lifecycle Automation with PowerShell](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell)**
