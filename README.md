@@ -10,7 +10,7 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 - **[Enterprise Identity Platform (Complete IAM Environment)](https://github.com/Tacha8/Contoso-Enterprise-Identity-Platform)**
 - **[On-prem Active Directory Identity plane setup](https://github.com/Tacha8/Active-Directory-Enterprise-Administration)**
 - **[Identity Automation with PowerShell & Microsoft Graph](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell)**
-- **[Service Account Security & Kerberos Authentication](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1)**
+- **[Kerberos Authentication & Active Directory Security](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1)**
 - **[Azure Identity Security](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup)**
 - **[Hybrid Active Directory Deployment & Identity Infrastructure](https://github.com/Tacha8/configure-ad)**
 
