@@ -1,7 +1,5 @@
 
 
-Focused in tackling complex challenges and diving deep into the ever-evolving landscape of IT/cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing operations and processes!
-
 
 ## Identity & Access Management 
 > Enterprise identity security projects focused on authentication, authorization, identity lifecycle, and access control.
@@ -12,7 +10,7 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 - **[Identity Automation with PowerShell & Microsoft Graph](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell)**
 - **[Kerberos Authentication & Active Directory Security](https://github.com/Tacha8/Active-Directory-Kerberos-Authentication-SQL-Service-Account-Security-Lab/tree/Tacha8-patch-1)**
 - **[Entra ID Tenant Deployment & CLI Management](https://github.com/Tacha8/Azure-AD-Tenant-and-MFA-Setup)**
-- **[Hybrid Active Directory Deployment & Identity Infrastructure](https://github.com/Tacha8/configure-ad)**
+- **[Active Directory Deployment & PowerShell User Provisioning](https://github.com/Tacha8/configure-ad)**
 
 
 
