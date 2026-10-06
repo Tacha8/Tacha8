@@ -6,7 +6,6 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 ## Identity & Access Management 
 > Enterprise identity security projects focused on authentication, authorization, identity lifecycle, and access control.
 
-- **[Azure Governance Incident investigation](https://github.com/Tacha8/Azure-Governance-Incident-investigation)**
 - **[Stolen-Identity-Entra-ID-Incident-Investigation](https://github.com/Tacha8/-Stolen-Identity-Entra-ID-Incident-Investigation)**
 - **[Enterprise Identity Platform (Complete IAM Environment)](https://github.com/Tacha8/Contoso-Enterprise-Identity-Platform)**
 - **[Enterprise Active Directory Infrastructure](https://github.com/Tacha8/Active-Directory-Enterprise-Administration)**
@@ -21,6 +20,7 @@ Focused in tackling complex challenges and diving deep into the ever-evolving la
 > Security investigations and detection engineering focused on identity, endpoint, email, and application threats.
 
 - **[TOR Threat Hunt](https://github.com/Tacha8/threat-hunting-scenario-tor)**
+- **[Azure Governance Incident investigation](https://github.com/Tacha8/Azure-Governance-Incident-investigation)**
 - **[Business Email Compromise Investigation](https://github.com/Tacha8/Microsoft-365-Business-Email-Compromise-MFA-Fatigue-)**
 - **[Defender XDR Investigation](https://github.com/Tacha8/Enterprise-Endpoint-Compromise-Investigation-and-Attack-Reconstruction)**
 - **[API Threat Analytics](https://github.com/Tacha8/API-Behavior-Monitoring-Script/tree/lab-tiach)**
