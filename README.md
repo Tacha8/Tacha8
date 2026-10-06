@@ -2,7 +2,7 @@
 
 
 ## Identity & Access Management 
-> Enterprise identity security projects focused on authentication, authorization, identity lifecycle, and access control.
+> Enterprise identity security projects focused on automation, authentication, authorization, identity lifecycle, and access control.
 
 - **[Stolen-Identity-Entra-ID-Incident-Investigation](https://github.com/Tacha8/-Stolen-Identity-Entra-ID-Incident-Investigation)**
 - **[Enterprise Identity Platform (Complete IAM Environment)](https://github.com/Tacha8/Contoso-Enterprise-Identity-Platform)**
