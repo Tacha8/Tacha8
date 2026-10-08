@@ -5,6 +5,7 @@
 > Enterprise identity security projects focused on automation, authentication, authorization, identity lifecycle, and access control.
 
 - **[Stolen-Identity-Entra-ID-Incident-Investigation](https://github.com/Tacha8/-Stolen-Identity-Entra-ID-Incident-Investigation)**
+- **[Azure Privilege Audit: RBAC Assignments, Orphaned Access & PIM](https://github.com/Tacha8/Privilege-Audit)**
 - **[Enterprise Identity Platform (Complete IAM Environment)](https://github.com/Tacha8/Contoso-Enterprise-Identity-Platform)**
 - **[On-prem Active Directory Identity plane setup](https://github.com/Tacha8/Active-Directory-Enterprise-Administration)**
 - **[Identity Automation with PowerShell & Microsoft Graph](https://github.com/Tacha8/Automating-User-Role-Management-in-Microsoft-Entra-ID-with-PowerShell)**
