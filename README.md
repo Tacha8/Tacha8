@@ -27,6 +27,7 @@
 > Security engineering projects focused on vulnerability management, compliance, access controls, and system hardening.
 
 - [Vulnerability Management Program](https://github.com/Tacha8/vulnerability-management-program-)
+- [Azure Function App Deployment Review](https://github.com/Tacha8/Azure-Function-App-Deployment-Review)
 - [DISA STIG Hardening](https://github.com/Tacha8/Tacha8/tree/main/STIGS)
 - [Azure Network Security & Traffic Analysis](https://github.com/Tacha8/azure-network-protocols)
 
