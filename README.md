@@ -24,7 +24,7 @@
 
 ## Cloud Network & Security Hardening
 
-> Security engineering projects focused on vulnerability management, compliance, access controls, and system hardening.
+> projects focused on network architecture, private connectivity, traffic routing, access controls, vulnerability management, and security configuration validation.
 
 - [Vulnerability Management Program](https://github.com/Tacha8/vulnerability-management-program-)
 - [Azure Function App Deployment Review](https://github.com/Tacha8/Azure-Function-App-Deployment-Review)
