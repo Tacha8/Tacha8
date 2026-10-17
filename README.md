@@ -22,12 +22,13 @@
 - [Azure Governance Incident Investigation](https://github.com/Tacha8/Azure-Governance-Incident-investigation)
 - [API Threat Analytics](https://github.com/Tacha8/API-Behavior-Monitoring-Script/tree/lab-tiach)
 
-## Security Hardening
+## Cloud Network & Security Hardening
 
 > Security engineering projects focused on vulnerability management, compliance, access controls, and system hardening.
 
 - [Vulnerability Management Program](https://github.com/Tacha8/vulnerability-management-program-)
 - [Azure Function App Deployment Review](https://github.com/Tacha8/Azure-Function-App-Deployment-Review)
+- [Azure Network Path Audit](https://github.com/Tacha8/azure-network-path-audit)
 - [DISA STIG Hardening](https://github.com/Tacha8/Tacha8/tree/main/STIGS)
 - [Azure Network Security & Traffic Analysis](https://github.com/Tacha8/azure-network-protocols)
 
