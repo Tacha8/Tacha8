@@ -34,8 +34,6 @@
 - [Tracing Private Endpoint Connectivity: A Five-Layer Network](https://github.com/Tacha8/Tracing-private-endpoint-Traffic)
 - [Investigating Azure Storage Access and Publicly Exposed Backups](https://github.com/Tacha8/Investigating-Azure-Storage-Access-and-Publicly-Exposed-Backups)
 
-- https://github.com/Tacha8/Investigating-Azure-Storage-Access-and-Publicly-Exposed-Backups
-
 ## IT Operations & Service Management
 
 - [osTicket Deployment](https://github.com/Tacha8/osticket-prereqs)
