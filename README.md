@@ -31,6 +31,7 @@
 - [Azure Network Path Audit](https://github.com/Tacha8/azure-network-path-audit)
 - [DISA STIG Hardening](https://github.com/Tacha8/Tacha8/tree/main/STIGS)
 - [Azure Network Security & Traffic Analysis](https://github.com/Tacha8/azure-network-protocols)
+- [Tracing Private Endpoint Connectivity: A Five-Layer Network](https://github.com/Tacha8/Tracing-private-endpoint-Traffic)
 
 ## IT Operations & Service Management
 
