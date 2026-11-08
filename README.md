@@ -22,6 +22,7 @@
 - [Azure Governance Incident Investigation](https://github.com/Tacha8/Azure-Governance-Incident-investigation)
 - [API Threat Analytics](https://github.com/Tacha8/API-Behavior-Monitoring-Script/tree/lab-tiach)
 - [Find the anomaly](https://github.com/Tacha8/Find-the-anomaly-)
+- [Threat hunt Solorigate C2](https://github.com/Tacha8/Threat-hunt-Solorigate-command-and-control)
 
 ## Cloud Network & Security Hardening
 
