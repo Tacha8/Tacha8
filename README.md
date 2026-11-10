@@ -23,6 +23,7 @@
 - [API Threat Analytics](https://github.com/Tacha8/API-Behavior-Monitoring-Script/tree/lab-tiach)
 - [Find the anomaly](https://github.com/Tacha8/Find-the-anomaly-)
 - [Threat hunt Solorigate C2](https://github.com/Tacha8/Threat-hunt-Solorigate-command-and-control)
+- [Score the Tenant](https://github.com/Tacha8/Score-the-Tenant/tree/Tacha8/joshcybertest)
 
 ## Cloud Network & Security Hardening
 
